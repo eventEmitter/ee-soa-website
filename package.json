@@ -1,26 +1,26 @@
 {
-      "name"                        : "ee-soa-webstie"
+      "name"                        : "ee-soa-website"
     , "description"                 : "a website module for ee-soa"
     , "version"                     : "0.1.0"
-    , "homepage"                    : "https://github.com/eventEmitter/ee-soa-webstie"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-soa-website"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
     , "repository": {
-          "url"                     : "https://github.com/eventEmitter/ee-soa-webstie.git"
+          "url"                     : "https://github.com/eventEmitter/ee-soa-website.git"
         , "type"                    : "git"
     }
     , "engines": {
         "node"                      : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/ee-soa-webstie/issues"
+        "url"                       : "https://github.com/eventEmitter/ee-soa-website/issues"
     }
     , "dependencies": {
           "ee-class"                : "0.2.x"
         , "ee-event-emitter"        : "0.1.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
-        , "ee-argv"                 : "0.2.x"
+        , "ee-argv"                 : "0.1.x"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
