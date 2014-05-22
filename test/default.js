@@ -51,6 +51,11 @@
 			instance.extensionsLoaded();
 		});
 
+		it('should be able to laod a filter', function(){
+			instance.registerFilter('soWhat', function(){}, true);
+			instance.filtersLoaded();
+		});
+
 		it('should be able to return a nunjucks context', function(done){
 			instance.getNunjucksEnvironment(function(err, env){
 				if (err) done(err);

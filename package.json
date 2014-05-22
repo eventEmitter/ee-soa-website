@@ -1,36 +1,38 @@
 {
-      "name"                        : "ee-soa-website"
-    , "description"                 : "a website module for ee-soa"
-    , "version"                     : "0.1.4"
-    , "homepage"                    : "https://github.com/eventEmitter/ee-soa-website"
-    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
-    , "licence"                     : "mit"
+      "name"                                : "ee-soa-website"
+    , "description"                         : "a website module for ee-soa"
+    , "version"                             : "0.2.0"
+    , "homepage"                            : "https://github.com/eventEmitter/ee-soa-website"
+    , "author"                              : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                             : "mit"
     , "repository": {
-          "url"                     : "https://github.com/eventEmitter/ee-soa-website.git"
-        , "type"                    : "git"
+          "url"                             : "https://github.com/eventEmitter/ee-soa-website.git"
+        , "type"                            : "git"
     }
     , "engines": {
-        "node"                      : ">=v0.10.17"
+        "node"                              : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/ee-soa-website/issues"
+        "url"                               : "https://github.com/eventEmitter/ee-soa-website/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
-        , "ee-argv"                 : "0.1.x"
-        , "nunjucks"                : "1.0.x"
-        , "em-webfiles"             : "0.1.x"
+          "ee-class"                        : "1.0.x"
+        , "ee-event-emitter"                : "0.1.x"
+        , "ee-types"                        : "0.1.x"
+        , "ee-log"                          : "0.2.x"
+        , "ee-argv"                         : "0.1.x"
+        , "nunjucks"                        : "1.0.x"
+        , "em-webfiles"                     : "0.2.x"
+        , "em-webfiles-loader-filesystem"   : "0.1.x"
+        , "ee-arguments"                    : "1.0.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
-        , "ee-travis"               : "0.1.x"
-        , "ee-soa-extension-api"    : "0.1.x"
+          "mocha"                           : "1.17.x"
+        , "ee-travis"                       : "0.1.x"
+        , "ee-soa-extension-api"            : "0.1.x"
     }
     , "optionalDependencies": {}
     , "scripts": {
-        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
+        "test"                              : "./node_modules/mocha/bin/mocha --reporter spec"
     }
 }
