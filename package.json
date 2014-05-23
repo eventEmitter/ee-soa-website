@@ -25,6 +25,7 @@
         , "em-webfiles"                     : "0.2.x"
         , "em-webfiles-loader-filesystem"   : "0.1.x"
         , "ee-arguments"                    : "1.0.x"
+        , "ee-configfile"                   : "0.1.x"
     }
     , "devDependencies": {
           "mocha"                           : "1.17.x"
