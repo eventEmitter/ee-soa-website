@@ -1,7 +1,7 @@
 {
       "name"                                : "ee-soa-website"
     , "description"                         : "a website module for ee-soa"
-    , "version"                             : "0.2.4"
+    , "version"                             : "0.2.5"
     , "homepage"                            : "https://github.com/eventEmitter/ee-soa-website"
     , "author"                              : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                             : "mit"
@@ -21,7 +21,7 @@
         , "ee-types"                        : "0.1.x"
         , "ee-log"                          : "0.2.x"
         , "ee-argv"                         : "0.1.x"
-        , "nunjucks"                        : "1.0.x"
+        , "nunjucks"                        : "1.2.x"
         , "em-webfiles"                     : "0.2.x"
         , "em-webfiles-loader-filesystem"   : "0.1.x"
         , "ee-arguments"                    : "1.0.x"
