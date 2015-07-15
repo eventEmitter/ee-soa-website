@@ -1,5 +1,5 @@
 
-	
+
 	var   Class 				= require('ee-class')
 		, log 					= require('ee-log')
 		, assert 				= require('assert')
@@ -33,7 +33,7 @@
 
 		it('should load the config file', function(){
 			var config = instance.getConfig();
-			assert.equal(JSON.stringify(config), '{"domains":["127.0.0.1.xip.io","*.127.0.0.1.xip.io"],"wwwFiles":true,"nunjucks":{"tags":{"variableStart":"{{","variableEnd":"}}"}}}');
+			assert.equal(JSON.stringify(config), '{"domains":["127.0.0.1.xip.io","*.127.0.0.1.xip.io"],"wwwFiles":true,"nunjucks":{"tags":{"variableStart":"{{","variableEnd":"}}"},"dev":false,"autoescape":false,"trimBlocks":false,"lstripBlocks":false}}');
 		});
 
 		it('should load the rewrite rules', function(done){
@@ -84,4 +84,3 @@
 			});
 		});
 	});
-	
