@@ -8,5 +8,6 @@
                   variableStart : '{{'
                 , variableEnd   : '}}'
             }
+            , watch :true
         }
     };
