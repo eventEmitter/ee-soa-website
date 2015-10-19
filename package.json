@@ -1,7 +1,7 @@
 {
       "name"                                : "ee-soa-website"
     , "description"                         : "a website module for ee-soa"
-    , "version"                             : "0.3.1"
+    , "version"                             : "0.3.2"
     , "homepage"                            : "https://github.com/eventEmitter/ee-soa-website"
     , "author"                              : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
     , "license"                             : "MIT"
@@ -25,7 +25,7 @@
         , "em-webfiles"                     : "0.2.x"
         , "em-webfiles-loader-filesystem"   : "0.1.x"
         , "ee-arguments"                    : "1.0.x"
-        , "ee-configfile"                   : "0.1.x"
+        , "ee-configfile"                   : "0.2.x"
     }
     , "devDependencies": {
           "mocha"                           : "1.17.x"
