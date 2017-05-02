@@ -1,5 +1,7 @@
 # ee-soa-website
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-soa-website.svg)](https://greenkeeper.io/)
+
 This module can be used to add Websites to the ee-soa-transport-rest module. It enables the rendering of powerful templates on top of a restful API. You may add multiple websites to the transport which can be served on multiple domains on top of the service oriented architecture.
 
 If your appllication makes use of this module you have to start it using one of the following flags:
